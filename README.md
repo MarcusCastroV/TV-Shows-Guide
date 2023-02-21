@@ -4,7 +4,14 @@ This is a simple web application that uses the OMDb (The Open Movie Database) AP
 
 ## Installation and Usage
 
-To use the application, simply clone or download this repository to your local machine, and then open the `index.html` file in a web browser. Once the application is loaded, enter the title of the movie or TV show you wish to search for in the search bar, and then click the "Search" button. The application will retrieve information about the matching movies or TV shows and display them in the results section below the search bar.
+To use the application, follow these steps:
+
+1. Clone or download this repository to your local machine.
+2. Go to the [OMDb website](https://www.omdbapi.com/) and create a free account to obtain an API key.
+3. In the `key.js` file, replace the `KEY` placeholder with your actual API key.
+4. Open the `index.html` file in a web browser.
+5. Once the application is loaded, enter the title of the movie or TV show you wish to search for in the search bar, and then click the "Search" button.
+6. The application will retrieve information about the matching movies or TV shows and display them in the results section below the search bar.
 
 ## Features
 
@@ -21,13 +28,3 @@ This application allows users to search for information about any movie or TV sh
 ## API
 
 The OMDb API is a free and open source source of information about movies and television shows. The API offers a rich set of data that includes cast information, ratings, reviews, summaries, posters, and much more. This application utilizes the OMDb API to retrieve data about movies and TV shows based on user searches.
-
-## Credits
-
-This application was developed by Marcus Castro, with the help of the following resources:
-
-- OMDb API documentation: [https://www.omdbapi.com/](https://www.omdbapi.com/)
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, copy, modify, and distribute this application, subject to the terms of the license.
