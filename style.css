@@ -107,6 +107,7 @@ h2{
 
 .genre{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 2.4em;
 }
@@ -165,5 +166,37 @@ a{
   }
   .info{
     grid-template-columns: 1fr 2fr
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .rating{
+    margin-top: 0;
+  }
+  .details{
+    display: none;
+  }
+  .genre{
+    margin-top: 1.2em;
+  }
+  .genre div{
+    margin-top: 1.2em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .rating{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .details{
+    display: none;
+  }
+  .genre{
+    margin-top: 0;
+  }
+  .genre div{
+    margin-top: 0;
+    border: none;
   }
 }
